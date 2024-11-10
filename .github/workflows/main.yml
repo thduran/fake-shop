@@ -23,7 +23,7 @@ jobs:
         run: echo "Executando o comando docker push"
         
   cd:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest2
     needs: [ci]
     steps:
       - name: Autenticar na AWS
