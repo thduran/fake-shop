@@ -18,7 +18,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Construção e Envio da Imagem Docker
-        uses: docker/build-push-action@v6E
+        uses: docker/build-push-action@v6
         with:
           context: ./src
           push: true
