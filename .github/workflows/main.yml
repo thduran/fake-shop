@@ -44,7 +44,7 @@ jobs:
 
 
       - name: Configurar o kubectl
-        run: aws eks update-kubeconfig --name eks-aula
+        run: aws eks update-kubeconfig --name eks-aulaa
 
 
       - name: Deploy dos manifestos no Kubernetes
